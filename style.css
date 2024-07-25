@@ -122,3 +122,19 @@ button {
 .social-icons i {
     color: #90642c;
 }
+
+#logo:hover {
+    transform: scale(1.10);
+}
+
+.product:hover {
+    transform: scale(1.10);
+}
+
+.social-icons i:hover {
+    transform: scale(1.10);
+}
+
+.sigup:hover {
+    background-color: #e3cbac;
+}
