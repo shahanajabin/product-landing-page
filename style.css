@@ -1,0 +1,124 @@
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#logo {
+    margin: 1%;
+    height: 100px;
+}
+
+i {
+    font-size: 25px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.container {
+    height: 350px;
+    padding: 10px;
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#main {
+    height: auto;
+    width: 100%;
+    max-width: 500px;
+}
+
+.header {
+    font-family: monospace;
+    text-align: center;
+}
+
+.heading {
+    font-family: cursive;
+    text-align: center;
+}
+
+.products-container {
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+}
+
+.product {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product img {
+    width: 90%;
+    height: auto;
+}
+
+.product-container-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 100px;
+    width: 100%;
+}
+
+.text {
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    flex-direction: column;
+    font-size: larger;
+    text-align: center;
+}
+
+#product-details {
+    margin: 0%;
+    color: rgb(94, 93, 93);
+    font-size: 15px;
+    text-align: center;
+}
+
+.details-container {
+    background-color: #fcf9f5;
+    margin: 0%;
+    border: 0%;
+    padding: 0%;
+    text-align: center;
+    padding: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#email {
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #fcf9f5;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    text-align: center;
+}
+
+button {
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #fcf9f5;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.social-icons {
+    text-align: center;
+    color: #e3cbac;
+    align-items: end;
+    justify-content: center;
+}
+
+.social-icons i {
+    color: #90642c;
+}
